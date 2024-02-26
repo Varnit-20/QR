@@ -1,6 +1,8 @@
 # qr
 
-A new Flutter project.
+A flutter project, where we can generate qr codes and we can also scan them!!
+Took help from freecodecamp video on youtube
+git
 
 ## Getting Started
 
