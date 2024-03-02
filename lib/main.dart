@@ -42,7 +42,8 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    Navigator.of(context).push(MaterialPageRoute(builder: (Context)=>ScanQRCode()))
+                    Navigator.of(context).push(
+                        MaterialPageRoute(builder: (Context) => ScanQRCode()));
                   });
                 },
                 child: Text('Scan QR Code')),
@@ -52,7 +53,8 @@ class _HomePageState extends State<HomePage> {
             ElevatedButton(
                 onPressed: () {
                   setState(() {
-                    Navigator.of(context).push(MaterialPageRoute(builder: (Context)=>GenerateQRCode()))
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (Context) => GenerateQRCode()));
                   });
                 },
                 child: Text('Generate QR Code'))
